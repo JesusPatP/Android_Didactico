@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_juegos"
+    android:background="@drawable/image">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/boton00"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="0" />
+
+                <ImageButton
+                    android:id="@+id/boton01"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="1" />
+
+                <ImageButton
+                    android:id="@+id/boton02"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="2" />
+
+                <ImageButton
+                    android:id="@+id/boton03"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="9" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/boton04"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="0" />
+
+                <ImageButton
+                    android:id="@+id/boton05"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="1" />
+
+                <ImageButton
+                    android:id="@+id/boton06"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="2" />
+
+                <ImageButton
+                    android:id="@+id/boton07"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="9" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/boton08"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="0" />
+
+                <ImageButton
+                    android:id="@+id/boton09"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="1" />
+
+                <ImageButton
+                    android:id="@+id/boton10"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="2" />
+
+                <ImageButton
+                    android:id="@+id/boton11"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="9" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/boton12"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="0" />
+
+                <ImageButton
+                    android:id="@+id/boton13"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="1" />
+
+                <ImageButton
+                    android:id="@+id/boton14"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="2" />
+
+                <ImageButton
+                    android:id="@+id/boton15"
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_column="9" />
+            </TableRow>
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Reiniciar"
+        android:layout_width="67dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="45dp"
+        android:drawableBottom="@drawable/restart_2"
+        style="?android:attr/borderlessButtonStyle"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
+    <Button
+        android:id="@+id/Salir"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="56dp"
+        android:drawableBottom="@drawable/exit_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96"
+        android:textColor="#ffffff"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="#E0DADA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#F44336">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puntuación"
+                android:textColor="#000000"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" " />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textoPuntuacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textAlignment="center"
+                    android:textSize="32dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" " />
+            </TableRow>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
